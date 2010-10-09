@@ -1,4 +1,6 @@
 using System;
+using MobilePatterns.Core.Infrastructure.Commands;
+using MobilePatterns.Core.Infrastructure.Events;
 using TinyIoC;
 
 namespace MobilePatterns.Core.Infrastructure

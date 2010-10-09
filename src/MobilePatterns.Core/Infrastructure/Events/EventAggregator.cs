@@ -6,7 +6,6 @@ namespace MobilePatterns.Core.Infrastructure.Events
 {
     public class EventAggregator : IEventAggregator
     {
-        readonly IDependencyResolver container;
         IList<object> subscribers;
 
         public EventAggregator()
