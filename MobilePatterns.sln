@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobilePatterns", "src\MobilePatterns\MobilePatterns.csproj", "{AE4BAD94-4171-4092-906C-D42C932D054F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobilePatterns.Core", "src\MobilePatterns.Core\MobilePatterns.Core.csproj", "{116CE2A5-75BA-456F-986B-1F0E780A43AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE4BAD94-4171-4092-906C-D42C932D054F}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{AE4BAD94-4171-4092-906C-D42C932D054F}.Debug|iPhone.Build.0 = Debug|iPhone
+		{AE4BAD94-4171-4092-906C-D42C932D054F}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{AE4BAD94-4171-4092-906C-D42C932D054F}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{AE4BAD94-4171-4092-906C-D42C932D054F}.Release|iPhone.ActiveCfg = Release|iPhone
+		{AE4BAD94-4171-4092-906C-D42C932D054F}.Release|iPhone.Build.0 = Release|iPhone
+		{AE4BAD94-4171-4092-906C-D42C932D054F}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{AE4BAD94-4171-4092-906C-D42C932D054F}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{116CE2A5-75BA-456F-986B-1F0E780A43AC}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{116CE2A5-75BA-456F-986B-1F0E780A43AC}.Debug|iPhone.Build.0 = Debug|iPhone
+		{116CE2A5-75BA-456F-986B-1F0E780A43AC}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{116CE2A5-75BA-456F-986B-1F0E780A43AC}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{116CE2A5-75BA-456F-986B-1F0E780A43AC}.Release|iPhone.ActiveCfg = Release|iPhone
+		{116CE2A5-75BA-456F-986B-1F0E780A43AC}.Release|iPhone.Build.0 = Release|iPhone
+		{116CE2A5-75BA-456F-986B-1F0E780A43AC}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{116CE2A5-75BA-456F-986B-1F0E780A43AC}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = src\MobilePatterns\MobilePatterns.csproj
+	EndGlobalSection
+EndGlobal

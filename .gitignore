@@ -1,0 +1,24 @@
+bin
+object
+*.userprefs
+.DS_Store
+*.swp
+
+obj
+Obj
+bin
+Bin
+ClientBin
+*.suo
+*ReSharper.*
+_ReSharper.*
+*.cache
+* Thumbs.db
+*.log
+.idea
+*.resharper.*
+*.pidb
+test-results
+*.user
+
+
