@@ -5,6 +5,7 @@ using System.Linq;
 using MobilePatterns.Core;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
+using System.Drawing;
 
 namespace MobilePatterns
 {
@@ -23,6 +24,13 @@ namespace MobilePatterns
 		public override bool FinishedLaunching (UIApplication app, NSDictionary options)
 		{
 		    IoCBootStrapper.Initialize();
+		    
+			var homeController = new UIViewController();
+			var homeView = new UIView(new RectangleF(0, 0, 320,480));
+			var label = new UILabel(new RectangleF(30,30,200, 100));
+			label.Text = "I'm here";
+			homeView.AddSubview(label);
+			window.AddSubview(homeView);
 			
 			window.MakeKeyAndVisible ();
 			
